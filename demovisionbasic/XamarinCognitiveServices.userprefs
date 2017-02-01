@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{DEF8E980-B3DA-420E-9C8A-0E4828B43F35}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinCognitiveServices.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EEB7C24E-4F82-4EC1-8BD5-76F5A8EE6EE9" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+    <Files>
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="XamarinCognitiveServices/MainPageDemo.xaml.cs" Line="47" Column="57" />
+      <File FileName="XamarinCognitiveServices/App.xaml.cs" Line="11" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
