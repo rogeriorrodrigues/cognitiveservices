@@ -1,16 +1,16 @@
-# Version: 10.4.0.96 (cycle9: 4e31137)
-# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.96/lib/mtouch/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.96/lib/mtouch/mtouch.exe \
+# Version: 10.4.0.97 (cycle9: 2bcf787)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.97/lib/mtouch/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.97/lib/mtouch/mtouch.exe \
 	--cache \
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/iOS/bin/iPhoneSimulator/Debug/XamarinCognitiveServices.iOS.app \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/iOS/bin/iPhoneSimulator/Debug/demovisionbasic.iOS.app \
 	--executable \
-	XamarinCognitiveServices.iOS \
+	demovisionbasic.iOS \
 	--fastdev \
 	--debug \
 	--profiling \
-	--linksdkonly \
+	--nolink \
 	--sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--sdk \
@@ -19,7 +19,7 @@
 	8.0 \
 	--http-message-handler=HttpClientHandler \
 	--tls-provider=default \
-	--abi=i386 \
+	--abi=x86_64 \
 	--symbollist \
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
@@ -32,14 +32,6 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll \
-	-r \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Microsoft.ProjectOxford.Vision.1.0.372/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.ProjectOxford.Vision.dll \
-	-r \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
-	-r \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll \
-	-r \
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
@@ -47,6 +39,14 @@
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Newtonsoft.Json.8.0.2/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	-r \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Microsoft.ProjectOxford.Vision.1.0.372/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.ProjectOxford.Vision.dll \
+	-r \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
+	-r \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -312,14 +312,6 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll \
-	-r \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Microsoft.ProjectOxford.Vision.1.0.372/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.ProjectOxford.Vision.dll \
-	-r \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
-	-r \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll \
-	-r \
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
@@ -327,6 +319,14 @@
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
 	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Newtonsoft.Json.8.0.2/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	-r \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Microsoft.ProjectOxford.Vision.1.0.372/lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.ProjectOxford.Vision.dll \
+	-r \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
+	-r \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/iOS/bin/iPhoneSimulator/Debug//XamarinCognitiveServices.iOS.exe \
+	/Users/rogerio.rodrigues/cognitiveservices/demovisionbasic/iOS/bin/iPhoneSimulator/Debug//demovisionbasic.iOS.exe \

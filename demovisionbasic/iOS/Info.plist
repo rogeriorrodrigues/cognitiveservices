@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>XamarinCognitiveServices</string>
+	<string>demovisionbasic</string>
 	<key>CFBundleName</key>
-	<string>XamarinCognitiveServices</string>
+	<string>demovisionbasic</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.predica.xamarincognitiveservices</string>
+	<string>com.rogerio.demovisionbasic</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -41,8 +41,12 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/AppIcons.appiconset</string>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Esse app gostaria de ter acesso a sua camera e fotos.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>O aplicativo deseja usar sua biblioteca de imagens.</string>
+	<string>Esse app gostaria de ter acesso a sua biblioteca de fotos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Esse app deseja ter acesso ao seu microfone.</string>
 </dict>
 </plist>

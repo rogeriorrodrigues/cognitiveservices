@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace XamarinCognitiveServices.iOS
+namespace demovisionbasic.iOS
 {
 	[Register("AppDelegate")]
 	public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
@@ -20,4 +20,3 @@ namespace XamarinCognitiveServices.iOS
 		}
 	}
 }
-

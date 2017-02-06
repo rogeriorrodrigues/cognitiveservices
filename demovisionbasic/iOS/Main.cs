@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace XamarinCognitiveServices.iOS
+namespace demovisionbasic.iOS
 {
 	public class Application
 	{
@@ -18,4 +18,3 @@ namespace XamarinCognitiveServices.iOS
 		}
 	}
 }
-
