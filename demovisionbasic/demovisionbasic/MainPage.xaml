@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="demovisionbasic.MainPage" >
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="demovisionbasic.MainPage" >
 	<ContentPage.Content>
 		<ScrollView>
-		 <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Spacing="10" Padding="15" >
-			<Label Text="Demo Computer Vision Basic" HorizontalOptions="Center" FontAttributes="Bold" />
-			<Button Text="Selecione a imagem" VerticalOptions="Center" BackgroundColor="Silver" TextColor="Black" Margin="3" HorizontalOptions="Center" Clicked="Handle_Clicked"/>
+		 <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" 
+				Spacing="10" Padding="15" >
+			<Label Text="Demo Computer Vision Basic" HorizontalOptions="Center" 
+				FontAttributes="Bold" />
+			<Button Text="Selecione a imagem" VerticalOptions="Center" 
+				BackgroundColor="Silver" TextColor="Black" Margin="3" HorizontalOptions="Center" 
+				Clicked="Handle_Clicked"/>
 			<Image x:Name="SelectedImage" Aspect="AspectFit" WidthRequest="200" HeightRequest="200" />
 			<Label x:Name="TextInfo" HorizontalOptions="Center" FontAttributes="Bold" />
-			<Label x:Name="InfoLabel" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+			<Label x:Name="InfoLabel" HorizontalOptions="Center" HorizontalTextAlignment="Center" 
+				VerticalTextAlignment="Center"/>
 		</StackLayout>
 		</ScrollView>
 	</ContentPage.Content>
